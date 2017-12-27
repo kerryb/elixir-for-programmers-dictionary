@@ -7,6 +7,6 @@ defmodule Dictionary do
   def word_list do
     "assets/words.txt"
     |> File.read!
-    |> String.split "\n"
+    |> String.split("\n")
   end
 end
